@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    margin: 0 auto;
+    width: 40%;
+    height: 90%;
+    border: 5px solid black;
+}
+
+.card-header {
+    background-color: rgb(100, 39, 39);
+    color: #ffffff;
+}
+
+.card-header, .card-title {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 2%;
+}
+
+.wrapper {
+    margin: 4%;
+}
+
+.name, .gender, .location, .language, .comments {
+    margin-bottom: 2%;
+}
+
+.comments {
+    display: grid;
+}
