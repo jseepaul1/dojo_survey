@@ -7,12 +7,17 @@ body {
     width: 100vw;
     height: 100vh;
 }
+.wrapper {
+    height:100%;
+
+}
 
 .card {
     margin: 0 auto;
-    width: 40%;
-    height: 90%;
+    width: 30%;
+    height: 80%;
     border: 5px solid black;
+    margin-top:4%;
 }
 
 .card-header {
@@ -38,4 +43,16 @@ h2 {
 
 .comments {
     display: grid;
+    height:35%;
+}
+
+.form {
+    height: 100%;
+}
+.btn {
+    margin-bottom:2%;
+}
+
+.error-message {
+    color: rgb(197, 27, 27);
 }
